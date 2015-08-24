@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
         liburiparser-dev \
         libexpat-dev && \
     apt-get autoclean -y && apt-get autoremove -y && apt-get clean -y && \
-    rm -rf /var/lib/apt/list*
+    rm -rf /var/lib/apt/lists/*
 
 # Install libMXF
 RUN git clone http://git.code.sf.net/p/bmxlib/libmxf /usr/local/lib/bmxlib-libmxf && \
