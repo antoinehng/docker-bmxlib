@@ -4,7 +4,7 @@ _This is a docker container for [bmxlib](http://sourceforge.net/projects/bmxlib/
 
 bmx is a library and set of utilities to read and write broadcasting media files. It primarily supports the MXF file format.
 
-## bmx is made up of 3 libraries:
+### bmx is made up of 3 libraries:
 
 - __libMXF:__
 A low-level C library for reading and writing MXF files. Particular attention has been made to creating MXF files compatible with Avid software and P2 cameras. Several useful command line tools are included.
