@@ -11,7 +11,7 @@ A low-level C library for reading and writing MXF files. Particular attention ha
 libMXF is part of the [BBC Ingex projetc](http://ingex.sourceforge.net/ "Ingex Sourceforge").
 
 - __libMXF++:__
-C++ wrapper for libMWF, provinding simpler and more manageable processing of header metadata.
+C++ wrapper for libMXF, provinding simpler and more manageable processing of header metadata.
 
 - __bmx:__
 C++ classes and utilities to read and write various flavours of MXF and WAVE.
