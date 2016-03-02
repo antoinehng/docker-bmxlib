@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
         uuid-dev \
         liburiparser-dev \
         libexpat-dev && \
+    apt-get upgrade -y && \
     apt-get autoclean -y && apt-get autoremove -y && apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
 
